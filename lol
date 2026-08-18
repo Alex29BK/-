@@ -6,6 +6,6 @@
   <title>LOL</title>
 </head>
 <body>
-  LOL
+  <h1>LOL</h1>
 </body>
 </html>
