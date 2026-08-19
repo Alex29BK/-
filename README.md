@@ -1,32 +1,38 @@
-<!DOCTYPE html>
+
 <html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOL</title>
+  <title>Hier klicken</title>
+
   <style>
-    html, body {
+    body {
       margin: 0;
-      width: 100%;
-      height: 100%;
-      background: black;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: white;
     }
 
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: 0;
+    button {
+      font-size: 40px;
+      padding: 20px 40px;
+      cursor: pointer;
     }
   </style>
 </head>
+
 <body>
 
-  <iframe
-    src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-    title="Rickroll"
-    allow="autoplay; encrypted-media"
-    allowfullscreen>
-  </iframe>
+  <button onclick="rickroll()">Hier klicken</button>
+
+  <script>
+    function rickroll() {
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    }
+  </script>
 
 </body>
 </html>
